@@ -246,3 +246,35 @@ img.vert-move {
     height: 33px;
     width: 33px;
 }
+
+/* projects */
+
+.projects{
+    height: auto;
+    padding: 60px 9% 50px;
+    background-image: url(imgages/gridLayout.png);
+}
+
+.project-container{
+    /* background-color: #e60000; */
+    margin-top: 15px;
+}
+.project-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.project-box .box{
+    position: relative;
+    background-color: rgb(14, 17, 162);
+    height: 55vh;
+    width: 23%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.project-box .box a img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
