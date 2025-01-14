@@ -200,6 +200,7 @@ img.vert-move {
     height: auto;
     padding: 60px 9% 50px;
     /* background-color: antiquewhite; */
+    box-shadow: 0 2px 8px -2px rgba(0,0,0,.2);
 }
 .about-me-main{
     display: flex;
@@ -250,7 +251,8 @@ img.vert-move {
 /* projects */
 
 .projects{
-    height: auto;
+/*     
+    height: 100vh; */
     padding: 60px 9% 50px;
     background-image: url(imgages/gridLayout.png);
 }
