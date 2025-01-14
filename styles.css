@@ -227,26 +227,46 @@ img.vert-move {
     width: 100%;
 
 }
-/* Language logoSection */
+/* Language Logo Section */
+
 .main-logo-box{
-    margin-top: 20px;
-    /* width: 100%; */
-}
-/* .logo-container{
-    width: 1600px;
-    margin: 0 auto;
-} */
-.logo-items{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 50px;
+    justify-content: center;
 }
 
-.logo-items img{
-    height: 33px;
-    width: 33px;
+.logo-container {
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
 }
+
+
+.logo-items {
+    display: flex;
+    animation: scroll 12s linear infinite; 
+}
+
+.logo-items img {
+    width: 2vw; 
+    height: 2vw;
+    margin-right: 15px; 
+    object-fit: contain; 
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0); 
+    }
+    100% {
+        transform: translateX(-50%); 
+    }
+}
+
 
 /* projects */
 
